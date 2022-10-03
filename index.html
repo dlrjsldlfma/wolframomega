@@ -4,17 +4,19 @@
     <meta charset = "UTF-8">
     <title>Wolfram Omega</title>
     <link rel="favicon" href="./logo_favicon.png">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
     <style>
       .font1 {
         font-family: Arial;
-        color: #8D8D8D;
+        color: #6D6D6D;
       }
       .footer1 {
         position: absolute;
         width: 100%;
         bottom: 0;
         font-family: Arial;
-        color: #8D8D8D;
+        color: #6D6D6D;
       }
     </style>
   </head>
@@ -25,12 +27,17 @@
       <img src="./logo_main.png" alt="Wolfram Omega Main Logo">
       <br><br><br>
       <input type="text" id="input">
+      <br>
+      <button type="button" onclick="">Calculate</button>
       <br><br>
       <h4>Result: </h4>
-      <button type="button" onclick="">Calculate</button>
+      <div><label id="result"></label></div>
       <h5>Wolfram Omega uses Python to calculate basic mathematics.</h5>
       <h5>Enter the desired equation to calculate.</h6>
       <h5>Typing any unneeded character (ex: 'Calculate', 'What is', etc) will lead to an error.</h5>
+      <py-script output="outputDiv">
+        print("Not implemented yet")
+      </py-script>
     </center>
   </body>
 
