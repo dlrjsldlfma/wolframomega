@@ -28,7 +28,7 @@
       <br><br><br>
       <input type="text" id="input">
       <br>
-      <button type="button" onclick="<py-script>print(eval(document.getElementById('input').innerText))</py-script>">Calculate</button>
+      <button type="button" onclick="<py-script output='result'>print(eval(document.getElementById('input').innerText))</py-script>">Calculate</button>
       <br><br>
       <h4>Result: </h4>
       <div id="result"></div>
