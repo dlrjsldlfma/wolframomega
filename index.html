@@ -28,16 +28,13 @@
       <br><br><br>
       <input type="text" id="input">
       <br>
-      <button type="button" onclick="">Calculate</button>
+      <button type="button" onclick="<py-script>print(eval(document.getElementById("input").innerText))">Calculate</button>
       <br><br>
       <h4>Result: </h4>
       <div id="result"></div>
       <h5>Wolfram Omega uses Python to calculate basic mathematics.</h5>
       <h5>Enter the desired equation to calculate.</h6>
       <h5>Typing any unneeded character (ex: 'Calculate', 'What is', etc) will lead to an error.</h5>
-      <py-script output="result">
-        print(document.getElementById("input").innerText + "Not working")
-      </py-script>
     </center>
   </body>
 
