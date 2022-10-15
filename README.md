@@ -5,4 +5,4 @@ A human being attempts to make a calculator with little knowledge.
 
 Inspiration: www.wolframbeta.art
 
-Link: Not available now
+Link: https://dlrjsldlfma.github.io/wolframomega/
