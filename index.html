@@ -16,7 +16,7 @@
         width: 100%;
         bottom: 0;
         font-family: Arial;
-        color: #6D6D6D;
+        color: #4D4D4D;
       }
     </style>
   </head>
@@ -33,8 +33,9 @@
       <h4>Result: </h4>
       <div id="result"></div>
       <h5>Wolfram Omega uses Python to calculate basic mathematics.</h5>
-      <h5>Enter the desired equation to calculate.</h6>
-      <h5>Typing any unneeded character (ex: 'Calculate', 'What is', etc) will lead to an error.</h5>
+      <h5>Enter the desired equation to calculate.</h5>
+      <h5>Do not type unneeded characters (ex: 'Calculate', 'What is', etc)</h5>
+      <h5>As it will create an error.</h5>
       <py-script output="result">
         print(eval(document.getElementById('input').innerText))
       </py-script>
